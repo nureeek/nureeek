@@ -29,6 +29,6 @@ public class Person {
 
     public String tostring() {
         String genderstr = gender ? "Male" : "Female";
-        return "hi, i am" + name + " " + surname + ", a " + age + "years old" + genderstr;
+        return "hi, i am " + name + " " + surname + ", a " + age + " years old " + genderstr;
     }
 }
